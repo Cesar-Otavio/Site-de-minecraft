@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.imgp {
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.navp {
+    position: absolute;
+    top: 25px;
+    right: 0px;
+}
+
+.navp li {
+    display: inline-block;
+    margin: 20px;
+}
+
+.navp a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    color: rgb(40, 240, 0);
+}
+
+.navp a:hover {
+    color: rgb(126, 126, 126);
+    text-decoration: underline;
+}
+
+#teste {
+    background: url("paper3.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.teste2 {
+    background: url("teste3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+section {
+    background: url("teste3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.p2 {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    border-width: 100px;
+    border: 2px rgb(255, 255, 255) solid;
+    border-radius: 10px;
+    color: rgb(238, 238, 238);
+    text-align: center;
+}
+
+.p3 {
+    padding: 20px;
+    color: green;
+    font-size: 15px;
+    font-family: cursive;
+}
